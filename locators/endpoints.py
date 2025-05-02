@@ -1,0 +1,12 @@
+BASE_URL = "https://stellarburgers.nomoreparties.site/api"
+
+REGISTER_USER = f"{BASE_URL}/auth/register"
+LOGIN_USER = f"{BASE_URL}/auth/login"
+USER_DATA = f"{BASE_URL}/auth/user"
+ORDERS = f"{BASE_URL}/orders"
+ALL_ORDERS = f"{BASE_URL}/orders/all"
+INGREDIENTS = f"{BASE_URL}/ingredients"
+LOGOUT = f"{BASE_URL}/auth/logout"
+PASSWORD_RESET = f"{BASE_URL}/password-reset"
+PASSWORD_RESET_RESET = f"{BASE_URL}/password-reset/reset"
+TOKEN_REFRESH = f"{BASE_URL}/auth/token"
